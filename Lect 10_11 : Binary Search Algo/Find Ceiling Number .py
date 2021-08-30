@@ -1,4 +1,6 @@
-def findCeilingNo(arr,n):
+# Ceiling number == smallest no greater or equal to target no
+
+def find_Ceiling_No(arr,n):
 	si = 0
 	ei = len(arr)-1
 	while si <= ei:
@@ -21,6 +23,6 @@ if __name__ == '__main__':
 	arr = [1000,2000,3000,4000,5000]
 	target = 3005 
 
-	index = findCeilingNo(arr,target)
+	index = find_Ceiling_No(arr,target)
 
 	print(arr[index])
