@@ -1,3 +1,5 @@
+# Floor number == Gretest number, smaller than or equal to target number
+
 def find_Floor_No(arr,n):
 	si = 0
 	ei = len(arr)-1
