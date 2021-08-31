@@ -1,3 +1,18 @@
+'''
+Approch :
+3 Steps:
+1) find peak element index
+2) Apply binary search on assending array having range 0 to peak
+		# This will return 1st occurance in assending arr
+3) Apply binary search on decending array having range peak+1 to len(arr) -1
+		# This will return 1st occurance in decending arr
+		
+retrun 1st occ index
+
+
+'''
+
+
 # """
 # This is MountainArray's API interface.
 # You should not implement it, or speculate about its implementation
