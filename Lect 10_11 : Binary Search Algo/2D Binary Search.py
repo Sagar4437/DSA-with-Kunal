@@ -1,6 +1,6 @@
 def binary_2d_search(matrix,target):
 	r = 0
-	c = len(matrix) - 1
+	c = len(matrix[0]) - 1
 
 	while r < len(matrix) and c >= 0:
 		if matrix[r][c] == target:
